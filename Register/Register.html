@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="Register.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Home/Asset/Logo.png" type="image/x-icon">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Phosphor -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav>
+        <div class="Logo">
+            <a href="#"><img src="/Home/Asset/Logo.png" alt="Logo Hi-Toyz"></a>
+        </div>
+        <div id="menu-icon" class="menu-icon">
+            <i class="ph ph-list"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+            <li>
+                <a href="/Home/home.html">Home</a>
+            </li>
+            <li>
+                <a href="/Product/Product-page.html">Product</a>
+            </li>
+            <li>
+                <a href="/Gallery/Gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="/Event-Page/Event-page.html">Event</a>
+            </li>
+            <div class="Register-button">
+                <a href="/Register/Register.html">Register</a>
+            </div>
+        </ul>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Contact Start -->
+    <section id="Contact-section">
+        <div class="container">
+            <div class="content">
+                <h1>Register</h1>
+            </div>
+            <div class="box">
+                <form action="" id="form">
+                    <label for="name">Name</label>
+                    <div class="name">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label for="name" class="error"></label>
+                    </div>
+                    <label for="email">Email</label>
+                    <div class="email">
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                        <label for="email" class="error"></label>
+                    </div>
+                    <label for="password">Password</label>
+                    <div class="password">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <label for="password" class="error"></label>
+                    </div>
+                    <label for="dob">Date of Birth</label>
+                    <div class="dob">
+                        <input type="date" name="dob" id="dob">
+                        <label for="dob" class="error"></label>
+                    </div>
+                    <div class="consent">
+                        <input type="checkbox" name="consent" id="consent">
+                        <label for="consent">I agree to the terms and conditions</label>
+                        <label for="consent" class="error"></label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact End -->
+
+
+
+    <!-- Footer Start -->
+    <div id="Footer-section">
+        <div class="garis"></div>
+        <div class="container">
+            <center>
+                <div class="footer-logo">
+                    <a href="#"><img src="/Home/Asset/Logo.png" alt="Foto Logo"></a>
+                </div>
+            </center>
+            <div class="footer-text">
+                <div class="text-1">
+                    <h1>ABOUT US</h1>
+                    <ul>
+                        <li>
+                            <a href="#History">About the Hi-Toyz</a>
+                        </li>
+                        <li>
+                            <a href="#">Hi-Toyz News</a>
+                        </li>
+                        <li>
+                            <a href="#">Hi-Toyz Product</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-2">
+                    <h1>SUPPORT</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Product Recalls</a>
+                        </li>
+                        <li>
+                            <a href="#">Report</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-3">
+                    <h1>EVENT</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Hi-Toyz Meet</a>
+                        </li>
+                        <li>
+                            <a href="#">Hi-Toyz Vintage</a>
+                        </li>
+                        <li>
+                            <a href="#">Hi-Toyz FlashSale</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Medsos">
+                <h1>FOLLOW US</h1>
+                <div class="icon">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Script Js -->
+    <script src="Register.js"></script>
+</body>
+</html>
